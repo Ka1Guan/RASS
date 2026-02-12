@@ -75,5 +75,5 @@ python train_net.py --config-file configs/ade20k/semantic-segmentation/maskforme
 ```
 
 ##  Dataset
-Will be release soom!
+Will be release soon!
 
