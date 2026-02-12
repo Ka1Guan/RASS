@@ -74,5 +74,6 @@ Pleasr put your txt file path at `YOUR TXT FILE PATH`. If you have 4 GPUs, you c
 python train_net.py --config-file configs/ade20k/semantic-segmentation/maskformer2_RASS.yaml --num-gpus 8
 ```
 
-
+##  Dataset
+Will be release soom!
 
