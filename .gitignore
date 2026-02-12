@@ -3,3 +3,7 @@ preset/model/stable-diffusion-2-1-base/
 preset/model/DAPE.pth
 preset/model/rass.pth
 preset/model/ram_swin_large_14m.pth
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
