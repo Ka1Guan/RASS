@@ -77,6 +77,7 @@ python train_net.py --config-file configs/ade20k/semantic-segmentation/maskforme
 ##  Dataset
 Simulated degradation of ADE20K test images:
 * [ADE20K](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
+
 Real-world low-quality images and annotations:
 * [RealLQ](https://drive.google.com/file/d/1ZjA0Vr5kPgSaHrnUHQNcTX5FRQNuybFD/view?usp=sharing)
 
