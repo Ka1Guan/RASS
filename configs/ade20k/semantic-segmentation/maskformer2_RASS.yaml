@@ -16,6 +16,6 @@ MODEL:
     FEATURE_STRIDES: [4, 8, 32, 16, 8, 8]
     OUT_FEATURES: ['res2', 'res3', 'res4', 'res5']
 SOLVER:
-  IMS_PER_BATCH: 8
+  IMS_PER_BATCH: 16
 
 
