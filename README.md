@@ -37,6 +37,8 @@
     conda create -n rass python=3.10 -y
     conda activate rass
     conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
+    pip install --upgrade pip
+    pip install -r requirements.txt
 
     # build detectron2
     pip install -U opencv-python
@@ -51,9 +53,6 @@
     pip install -r requirements.txt
     cd mask2former/modeling/pixel_decoder/ops
     sh make.sh
-
-    pip install --upgrade pip
-    pip install -r requirements.txt
     ```
 
 3. Download Models
