@@ -2,11 +2,11 @@ _BASE_: maskformer2_R50_bs16_160k.yaml
 OUTPUT_DIR: "./experiments"
 MODEL:
   RASS:
-    pretrained_sd_model_path: "/data/guankai/RASS/preset/model/stable-diffusion-2-1-base"
-    pretrained_res_model_path: "/data/guankai/RASS/preset/model/scr.pkl"
-    opt: "/data/guankai/RASS/preset/train_realesrnet_x1_get_degration.yml"
-    ram_ft_path: "/data/guankai/RASS/preset/model/DAPE.pth"
-    ram_path: "/data/guankai/RASS/preset/model/ram_swin_large_14m.pth"
+    pretrained_sd_model_path: "/path/to/RASS/preset/model/stable-diffusion-2-1-base"
+    pretrained_res_model_path: "/path/to/RASS/preset/model/scr.pkl"
+    opt: "/path/to/RASS/preset/train_realesrnet_x1_get_degration.yml"
+    ram_ft_path: "/path/to/RASS/preset/model/DAPE.pth"
+    ram_path: "/path/to/RASS/preset/model/ram_swin_large_14m.pth"
   META_ARCHITECTURE: "MaskFormer_rass"
   BACKBONE:
     NAME: "RASS"
