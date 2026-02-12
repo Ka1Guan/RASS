@@ -56,7 +56,9 @@
     pip install -r requirements.txt
     ```
 
-3. Download Models 
+3. Download Models
+* [RASS]
+
 #### Dependent Models
 * [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
 * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
