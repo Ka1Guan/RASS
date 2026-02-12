@@ -21,6 +21,9 @@
 
 </div>
 
+## 🎬 Overview
+![overview](asserts/rass.png)
+
 ## 🔧 Dependencies and Installation
 
 1. Clone repo
