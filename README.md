@@ -30,6 +30,30 @@
 ## 🎬 Overview
 ![overview](asserts/rass.png)
 
+
+## 📂 Dataset
+
+### 1. RealLQ Benchmark
+**RealLQ** is a newly collected and annotated benchmark for semantic segmentation of real-world low-quality images. It is designed to encourage the community to explore and address the challenges of semantic segmentation in complex, real-world degraded scenarios.
+
+* [**Download RealLQ**](https://drive.google.com/file/d/1ZjA0Vr5kPgSaHrnUHQNcTX5FRQNuybFD/view?usp=sharing)
+
+> 💡 **Key Contribution:** RealLQ provides high-quality manual annotations for images suffering from authentic, non-simulated degradations, filling the gap between synthetic training and real-world application.
+
+---
+
+### 2. Simulated ADE20K-val
+This dataset is used to verify the model's performance under controlled degradation. We apply **Real-ESRGAN** to the original ADE20K validation set to generate these simulated low-quality images.
+
+* [**Download Degraded ADE20K**](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
+
+| Dataset | Source | Degradation Type | Purpose |
+| :--- | :--- | :--- | :--- |
+| **RealLQ** | Real-world Capture | Authentic | Benchmark / Evaluation |
+| **ADE20K-val** | ADE20K | Real-ESRGAN (Simulated) | Performance Verification |
+
+
+
 ## 🔧 Dependencies and Installation
 
 1. **Clone repo**
@@ -93,11 +117,4 @@ OUTPUT_DIR ./experiments
   <br>
   <b>Table 1: Semantic segmentation (mIoU↑) on degraded ADE20K-val and RealLQ. Symbol <sup>+</sup> denotes an enhanced version, and "-" denotes not applicable. Best results are highlighted in bold.</b>
 </p>
-
-##  Dataset
-Simulated degradation of ADE20K test images:
-* [ADE20K](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
-
-Real-world low-quality images and annotations:
-* [RealLQ](https://drive.google.com/file/d/1ZjA0Vr5kPgSaHrnUHQNcTX5FRQNuybFD/view?usp=sharing)
 
