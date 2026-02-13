@@ -56,10 +56,7 @@
     cd ..
     
     # Build Mask2Former
-    git clone git@github.com:facebookresearch/Mask2Former.git
-    cd Mask2Former
-    pip install -r requirements.txt
-    cd mask2former/modeling/pixel_decoder/ops
+    cd rass/modeling/pixel_decoder/ops
     sh make.sh
     cd ../../../..
     ```
