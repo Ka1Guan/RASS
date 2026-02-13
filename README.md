@@ -72,8 +72,7 @@ OUTPUT_DIR ./experiments
 ```
 
 ##  Training for RASS
-Pleasr put your txt file path at `YOUR TXT FILE PATH`. If you have 4 GPUs, you can run
-
+Before starting training, you need to prepare the dataset. Please refer to [Mask2Former](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md) to download and deploy ADE20K. Then download the simulated degradation validation set ([here](#dataset)) to replace the original standard quality validation images. During training, input the standard quality images and simulate degradation using online data preprocessing().
 ```
 python train_net.py --config-file configs/ade20k/semantic-segmentation/maskformer2_RASS.yaml --num-gpus 8
 ```
