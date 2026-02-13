@@ -21,6 +21,8 @@
 
 </div>
 
+---
+
 ## 📌 TODO
 
 - [ ] Release the training and testing code for SCR
@@ -30,13 +32,13 @@
 
 ## 🔧 Dependencies and Installation
 
-1. Clone repo
+1. **Clone repo**
     ```bash
-    git clone https://github.com/Ka1Guan/RASS.git
+    git clone [https://github.com/Ka1Guan/RASS.git](https://github.com/Ka1Guan/RASS.git)
     cd RASS
     ```
 
-2. Install dependent packages
+2. **Install dependent packages**
     ```bash
     conda create -n rass python=3.10 -y
     conda activate rass
@@ -44,30 +46,33 @@
     pip install --upgrade pip
     pip install -r requirements.txt
 
-    # build detectron2
+    # Build detectron2
     pip install -U opencv-python
     git clone git@github.com:facebookresearch/detectron2.git
     cd detectron2
     pip install -e .
-    pip install git+https://github.com/cocodataset/panopticapi.git
-    pip install git+https://github.com/mcordts/cityscapesScripts.git
+    pip install git+[https://github.com/cocodataset/panopticapi.git](https://github.com/cocodataset/panopticapi.git)
+    pip install git+[https://github.com/mcordts/cityscapesScripts.git](https://github.com/mcordts/cityscapesScripts.git)
     cd ..
+    
+    # Build Mask2Former
     git clone git@github.com:facebookresearch/Mask2Former.git
     cd Mask2Former
     pip install -r requirements.txt
     cd mask2former/modeling/pixel_decoder/ops
     sh make.sh
+    cd ../../../..
     ```
 
 3. **Download Models**
-   * [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
-   
-   * **Dependent Models**
-     * [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
-     * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
-     * [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
+    * [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
 
-        You can put them into `preset/model`
+    **Dependent Models**
+    * [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
+    * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
+    * [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
+
+    > 💡 **Note:** You can put all downloaded models into `preset/model`
 
 
 ##  Train
