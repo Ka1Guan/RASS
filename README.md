@@ -59,7 +59,7 @@
 * [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
 
 #### Dependent Models
-* [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
+* [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
 * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
 * [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
 
@@ -71,7 +71,7 @@ python train_net.py --config-file configs/ade20k/semantic-segmentation/maskforme
 ```
 
 ##  Test
-To test the model, please download the low-quality image test set first ([here](#dataset)).
+To test the model, please download the low-quality image test set first ([here](#dataset)). For the ADE20K validation set, please place them directly in your dataset file, replacing the original validation set. For RealLQ, you can simply `export DETECTRON2_DATASETS=/path/to/RealLQ`.
 ```
 python train_net.py --config-file configs/ade20k/semantic-segmentation/maskformer2_RASS.yaml \
 --eval-only MODEL.WEIGHTS preset/model/rass.pth \
