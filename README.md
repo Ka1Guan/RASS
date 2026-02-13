@@ -21,6 +21,10 @@
 
 </div>
 
+## 📌 TODO
+
+- [ ] Release the training and testing code for SCR
+
 ## 🎬 Overview
 ![overview](asserts/rass.png)
 
