@@ -48,7 +48,7 @@ This dataset is used to verify the model's performance under controlled degradat
 * [**Download Degraded ADE20K**](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
 
 | Dataset | Source | Degradation Type |
-| :--- | :--- | :--- | :--- |
+| :--- | :--- | :--- |
 | **RealLQ** | Real-world Capture | Authentic |
 | **ADE20K-val** | ADE20K | [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) (Simulated) |
 
