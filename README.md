@@ -72,7 +72,7 @@ OUTPUT_DIR ./experiments
 ```
 
 ##  Training for RASS
-Before starting training, you need to prepare the dataset. Please refer to [Mask2Former](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md) to download and deploy ADE20K. Then download the simulated degradation validation set ([here](#dataset)) to replace the original standard quality validation images. During training, input the standard quality images and simulate degradation using online data preprocessing().
+Before starting training, you need to prepare the dataset. Please refer to [Mask2Former](https://github.com/facebookresearch/Mask2Former/blob/main/datasets/README.md) to download and deploy ADE20K. Then download the simulated degradation validation set ([here](#dataset)) to replace the original standard quality validation images. During training, input the standard quality images and simulate degradation using [online data preprocessing](https://github.com/Ka1Guan/RASS/blob/5aca2916fe00da5ea3b899620097cb7b21a318cc/rass/modeling/backbone/rass_backbone.py#L101C53-L101C60).
 ```
 python train_net.py --config-file configs/ade20k/semantic-segmentation/maskformer2_RASS.yaml --num-gpus 8
 ```
