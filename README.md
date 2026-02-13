@@ -43,7 +43,7 @@
 ---
 
 ### 2. Simulated ADE20K-val
-This dataset is used to verify the model's performance under controlled degradation. We apply **Real-ESRGAN**(https://github.com/xinntao/Real-ESRGAN) to the original ADE20K validation set to generate these simulated low-quality images.
+This dataset is used to verify the model's performance under controlled degradation. We apply [**Real-ESRGAN**](https://github.com/xinntao/Real-ESRGAN) to the original ADE20K validation set to generate these simulated low-quality images.
 
 * [**Download Degraded ADE20K**](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
 
