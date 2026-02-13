@@ -89,9 +89,13 @@ python train_net.py --config-file configs/ade20k/semantic-segmentation/maskforme
 OUTPUT_DIR ./experiments
 ```
 
-##  Results
+## 📊 Results
 
-
+<p align="center">
+  <img src="asserts/rass_result.png" alt="result" width="800">
+  <br>
+  <b>Table 1: Semantic segmentation (mIoU↑) on degraded ADE20K-val and RealLQ. Symbol <sup>+</sup> denotes an enhanced version, and "-" denotes not applicable. Best results are highlighted in bold.</b>
+</p>
 
 ##  Dataset
 Simulated degradation of ADE20K test images:
