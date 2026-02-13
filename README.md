@@ -89,6 +89,10 @@ python train_net.py --config-file configs/ade20k/semantic-segmentation/maskforme
 OUTPUT_DIR ./experiments
 ```
 
+##  Results
+
+
+
 ##  Dataset
 Simulated degradation of ADE20K test images:
 * [ADE20K](https://drive.google.com/file/d/1w_3fMVfwMEJs1Y9pPPknW2gqa33JbtNf/view?usp=sharing)
