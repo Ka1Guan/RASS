@@ -34,7 +34,7 @@
 
 1. **Clone repo**
     ```bash
-    git clone [https://github.com/Ka1Guan/RASS.git](https://github.com/Ka1Guan/RASS.git)
+    git clone https://github.com/Ka1Guan/RASS.git
     cd RASS
     ```
 
