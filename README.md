@@ -56,7 +56,7 @@
     ```
 
 3. Download Models
-* [RASS]
+* [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
 
 #### Dependent Models
 * [SD21 Base](https://huggingface.co/stabilityai/stable-diffusion-2-1-base)
