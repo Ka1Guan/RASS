@@ -59,13 +59,15 @@
     sh make.sh
     ```
 
-3. Download Models
-* [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
+3. **Download Models**
+   * [RASS](https://drive.google.com/file/d/14Ut18YU2OJ-J1OQHOQK6NTs-4PQYvrJp/view?usp=sharing)
+   
+   * **Dependent Models**
+     * [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
+     * [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
+     * [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
 
-#### Dependent Models
-* [SD21 Base](https://huggingface.co/Manojb/stable-diffusion-2-1-base)
-* [RAM](https://huggingface.co/spaces/xinyu1205/recognize-anything/blob/main/ram_swin_large_14m.pth)
-* [DAPE](https://drive.google.com/file/d/1KIV6VewwO2eDC9g4Gcvgm-a0LDI7Lmwm/view?usp=drive_link)
+        You can put them into `preset/model`
 
 
 ##  Train
