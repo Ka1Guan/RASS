@@ -15,7 +15,7 @@
     <sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>Eastern Institute of Technology, Ningbo&emsp; 
 </div>
 
-[[paper]]()
+[[paper]](https://www.arxiv.org/abs/2602.14042)
 
 </div>
 
