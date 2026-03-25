@@ -121,6 +121,20 @@ OUTPUT_DIR ./experiments
 </p>
 
 
+## 📧 Contact
+
+If you have any questions, feel free to contact: [kai11.guan@connect.polyu.hk](kai11.guan@connect.polyu.hk)
+
+## 🤝 Acknowledgments
+
+This project is built upon several excellent open-source works. We sincerely thank the authors of the following projects for their contributions to the community:
+
+- [Detectron2](https://github.com/facebookresearch/detectron2): For providing the foundational codebase for our implementation.
+- [OSEDiff]([https://github.com/YuchaoGu/OSEDiff](https://github.com/cswry/OSEDiff)): For the advanced diffusion-based image super-resolution techniques.
+- [Mask2Former](https://github.com/facebookresearch/Mask2Former): For the robust image segmentation framework.
+- [ODISE](https://github.com/NVlabs/ODISE): For the insights into open-vocabulary panoptic segmentation.
+
+
 ## 📝 Citation
 
 If you find our work useful in your research, please consider citing:
