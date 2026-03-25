@@ -120,3 +120,15 @@ OUTPUT_DIR ./experiments
   <b>Table 1: Semantic segmentation (mIoU↑) on degraded ADE20K-val and RealLQ. Symbol <sup>+</sup> denotes an enhanced version, and "-" denotes not applicable. Best results are highlighted in bold.</b>
 </p>
 
+
+## 📝 Citation
+
+If you find our work useful in your research, please consider citing:
+
+```bibtex
+@article{guan2026rass,
+  title={Restoration Adaptation for Semantic Segmentation on Low Quality Images},
+  author={Guan, Kai and Wu, Rongyuan and Li, Shuai and Zhu, Wentao and Zeng, Wenjun and Zhang, Lei},
+  journal={arXiv preprint arXiv:2602.14042},
+  year={2026}
+}
