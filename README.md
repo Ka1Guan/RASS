@@ -24,6 +24,8 @@
 ## 📌 TODO
 
 - [ ] Release the training and testing code for SCR
+- [ ] ~~Release RealLQ dataset~~
+- [ ] ~~Release training and testing code for RASS~~
 
 ---
 
