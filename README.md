@@ -21,7 +21,7 @@
 
 **🚩 The paper has been accepted by the International Journal of Computer Vision (IJCV)!**
 
-
+</div>
 ---
 
 ## 📌 TODO
