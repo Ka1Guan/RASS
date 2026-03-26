@@ -19,8 +19,7 @@
 
 ---
 
-## 🚩 The paper has been accepted by the International Journal of Computer Vision (IJCV)!
-
+<small>**🚩 The paper has been accepted by the International Journal of Computer Vision (IJCV).**</small>
 
 ---
 </div>
