@@ -146,6 +146,10 @@ If you find our work useful in your research, please consider citing:
 @article{guan2026rass,
   title={Restoration Adaptation for Semantic Segmentation on Low Quality Images},
   author={Guan, Kai and Wu, Rongyuan and Li, Shuai and Zhu, Wentao and Zeng, Wenjun and Zhang, Lei},
-  journal={arXiv preprint arXiv:2602.14042},
-  year={2026}
+  journal={International Journal of Computer Vision},
+  volume={134},
+  number={5},
+  pages={229},
+  year={2026},
+  publisher={Springer}
 }
