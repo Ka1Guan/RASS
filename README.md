@@ -15,7 +15,7 @@
     <sup>1</sup>The Hong Kong Polytechnic University, <sup>2</sup>Eastern Institute of Technology, Ningbo&emsp; 
 </div>
 
-[[paper]]([https://www.arxiv.org/abs/2602.14042](https://link.springer.com/article/10.1007/s11263-026-02828-w)) [[arxiv]](https://www.arxiv.org/abs/2602.14042)
+[[paper]](https://link.springer.com/article/10.1007/s11263-026-02828-w) [[arxiv]](https://www.arxiv.org/abs/2602.14042)
 
 ---
 
